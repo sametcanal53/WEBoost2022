@@ -1,0 +1,162 @@
+* {
+    font-size: 16px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.bg-gray {
+    background-color: #F5F5F5;
+}
+
+button,
+h1,
+.h1,
+h2 {
+    font-weight: 900;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+/* Banner */
+
+.banner {
+    position: relative;
+}
+
+.banner-filter {
+    position: relative;
+    display: inline-table;
+    margin: 0;
+}
+
+.banner-filter::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+    background: linear-gradient(90deg, rgba(45, 156, 219, .6), rgba(155, 81, 224, .6));
+    background-repeat: no-repeat;
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+}
+
+.shadowbox {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.14);
+}
+
+.rem150 {
+    font-size: 1.50rem;
+}
+
+.h-px{
+    max-height: 700px;
+    position: relative;
+}
+ /* Navbar */
+    
+ .navbar-nav,
+ .mr-auto {
+     flex: 1;
+     margin: auto!important;
+     display: flex;
+     justify-content: space - between;
+ }
+ 
+ .navbar-toggler {
+     border: 0!important;
+ }
+ 
+ .logo-image {
+     margin: 15px;
+     height: 50px;
+     width: 250px;
+ }
+ 
+ .w-40 {
+     width: 160px;
+ }
+ 
+ .h-40 {
+     height: 160px;
+ }
+ 
+ .gecisli {
+     background: linear-gradient(90deg, rgba(45, 156, 219, .6), rgba(155, 81, 224, .6));
+     background-repeat: no-repeat;
+ }
+/* Butonlar */
+    
+.btn-orange {
+    padding: 15px;
+    background-color: rgb(251, 146, 60);
+    color: white;
+    border-radius: 50px;
+}
+
+.br-15 {
+    border-radius: 15px;
+}
+
+.btn-orange:hover {
+    background-color: rgb(253, 186, 116);
+    color: white;
+}
+
+
+   /* Footer */
+    
+   footer {
+    background-color: #FAFAFA;
+}
+
+.footer-logo {
+    width: 246px;
+    height: 46px;
+}
+
+.footer-header {
+    margin: 50px 10px 15px 40px;
+    color: #A3A3A3;
+}
+
+.footer-ul>li {
+    margin: 5px 0px;
+    list-style-type: none;
+}
+
+.footer-ul>li>a {
+    color: #352f2f;
+    text-decoration: none;
+}
+
+.footer-ul>li>a:hover {
+    color: black;
+}
+
+.footer-a {
+    color: grey;
+    text-decoration: underline;
+}
+
+.footer-a:hover {
+    color: rgb(251, 146, 60);
+}
+
+.footer-social-media {
+    font-size: 20px;
+    color: #A3A3A3;
+}
+
+.footer-social-media:hover {
+    color: #616060;
+}

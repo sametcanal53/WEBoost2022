@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" sizes="16x16">
+    <title>Kodluyoruz</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="https://www.kodluyoruz.org/"><img src="images/kodluyoruz-navbar.png" class="logo-image "></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kodluyorum" aria-controls="kodluyorum" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="navbar-collapse collapse" id="kodluyorum">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item dropdown-divider"></li>
+                    <li class="nav-item">
+                        <a href="kodla-donusturelim.html" class="nav-link font-weight-bold ">Kodla Dönüştürelim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hi-kod.html" class="nav-link font-weight-bold">Hi-Kod</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="bootcamp.html" class="nav-link font-weight-bold">Bootcamp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="community.html" class="nav-link font-weight-bold">Topluluk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cs50.html" class="nav-link font-weight-bold ">CS50x</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kodluyoruz-junior.html" class="nav-link font-weight-bold">Kodluyoruz Jr.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="for-companies.html" class="nav-link font-weight-bold">Şirketler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link font-weight-bold">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown-divider"></li>
+                </ul>
+
+                <a class="text-white text-decoration-none" href="donate.html"><button class="btn btn-orange font-weight-bold">Destekle</button></button></a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Section-1 -->
+        <section>
+            <div class="gecisli p-5 text-center text-white">
+                <div class="display-3">Sıkça Sorulan Sorular</h1>
+                </div>
+        </section>
+
+        <!-- Section-2 -->
+        <section>
+            <div class="container p-5">
+                <div>
+                    <h1 class="text-center">Bootcamp'lerle İlgili Sorular</h1>
+                    <div class="mt-5">
+                        <div id="collapse">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse1html" data-toggle="collapse" onclick="myFunction('collapse1html')" href="#collapse1">Ön kabul süreci nedir?</a>
+                                </div>
+                                <div id="collapse1" class="collapse">
+                                    <div class="card-body">
+                                        <p>Ön kabul sürecinde dersler başladıktan sonra 2 hafta içerisinde öğrencilerin kesin kabul alarak bootcamp’te ilerlemesi için beklentilerimiz iki kategoriye ayrılıyor:</p>
+                                        <h6>Teknik kriterler:</h6>
+                                        <p>- Derslerin tamamına gelmiş olması</p>
+                                        <p>- HackerRank’te ilgili bootcamp alanında en az 2 yıldıza ulaşılması</p>
+                                        <p>Ödev 1'in yapılması</p>
+                                        <h6>Profesyonel kriterler:</h6>
+                                        <p>- LinkedIn profil linkinin olması</p>
+                                        <p>- Github profil linkinin olması</p>
+                                        <p>- HackerRank profil linkini olması</p>
+                                        <p>- Ödev 1'in GitHub reposuna bulunması.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse2html" data-toggle="collapse" onclick="myFunction('collapse2html')" href="#collapse2">Bootcampler'e kendi bilgisayarımızı mı getiriyoruz?</a>
+                                </div>
+                                <div id="collapse2" class="collapse">
+                                    <div class="card-body">
+                                        <p>Evet, bootcampler'e katılanlar kendi bilgisayarını getirmek zorunda. Ancak iOS bootcamp'i için Kodluyoruz olarak bilgisayar desteği sunuyoruz.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse3html" data-toggle="collapse" onclick="myFunction('collapse3html')" href="#collapse3">Bootcamp katılım sonuçlarını ne zaman ve nasıl açıklayacaksınız?</a>
+                                </div>
+                                <div id="collapse3" class="collapse">
+                                    <div class="card-body">
+                                        <p>Bootcamp'e başvuran herkese öncelikle bir yazılım ve algoritma testi gönderiyoruz. Bu test sonucu ve baştaki ön başvuru formunda yazanlara göre önceliklendirilen gençlerle bir mülakat yapıyoruz. Seçim süreciyle
+                                            ilgili ayrıntılı bilgi <a href="bootcamp/admission.html" target="_blank" class="dark-text link-text">burada</a>. Katılım sonuçlarını seninle mülakattan sonra en fazla bir ay içerisinde e-posta aracılığıyla paylaşacağız.
+                                            Bu süreçte bize başvuru formunda yazdığın e-posta kutunu kontrol etmeyi unutma!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse4html" data-toggle="collapse" onclick="myFunction('collapse4html')" href="#collapse4">Bootcamp'e herkes başvuru yapabilir mi?</a>
+                                </div>
+                                <div id="collapse4" class="collapse">
+                                    <div class="card-body">
+                                        <p>Bootcamplerimiz, şu an iş arayan, kapasitesinin altında işlerde çalışan, veya üniversiteyi yakında bitirecek olan gençlere yöneliktir. Herhangi bir diploma koşulumuz kesinlikle yoktur. Sen de 'yazılım alanında kendini
+                                            geliştirdim, projeler ürettim ve azimliyim' diyorsan, <a href="bootcamp.html" class="link-text dark-text" target="_blank">hemen başvur</a> .</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse5html" data-toggle="collapse" onclick="myFunction('collapse5html')" href="#collapse5">Bootcamp başvuru formuna nasıl ulaşabilirim ?</a>
+                                </div>
+                                <div id="collapse5" class="collapse">
+                                    <div class="card-body">
+                                        <p>Hayır, başvuruların sadece %10'unu kabul ediyoruz. Seçim için 3 aşamamız var: 1) Ön başvuru formu, 2) Algoritma ve kodlama testi, 3) Online veya yüzyüze mülakat. Süreçle ilgili ayrıntılı bilgi <a href="bootcamp/admission.html"
+                                                target="_blank" class="dark-text link-text">burada</a> .</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse6html" data-toggle="collapse" onclick="myFunction('collapse6html')" href="#collapse6">Bootcamp'ler ne kadar sürer? Dersler hangi günlerde, ne kadar süreyle olur?</a>
+                                </div>
+                                <div id="collapse6" class="collapse">
+                                    <div class="card-body">
+                                        <p>Bootcamp'lerimiz genellikle hafta sonları olur ve ortalama 72 - 90 saat arası sürer. Tüm bootcamp'lerin kendine göre gün, süre ve yerleri olur. Bu ayrıntılar belli oldukça, Bootcamp sayfamızdan <a href="bootcamp.html"
+                                                target="_blank" class="dark-text link-text">burada</a> tüm ayrıntılara ulaşabilirsin.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse7html" data-toggle="collapse" onclick="myFunction('collapse7html')" href="#collapse7">Bootcamp başvuru formuna nasıl ulaşabilirim?</a>
+                                </div>
+                                <div id="collapse7" class="collapse">
+                                    <div class="card-body">
+                                        <p>Bootcamp başvuru formuna <a href="bootcamp.html" target="_blank" class="dark-text link-text">bootcamp sayfasından</a> ulaşabilirsin.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse8html" data-toggle="collapse" onclick="myFunction('collapse8html')" href="#collapse8">Bootcamp'lere son başvuru tarihi nedir? Tarihleri ve yeri nereden öğrenirim?</a>
+                                </div>
+                                <div id="collapse8" class="collapse">
+                                    <div class="card-body">
+                                        <p>Yeni başlayacak bootcamp'lerimiz için biz de en az senin kadar heyecanlıyız. Başvuru süreci devam eden tüm bootcamp'lere ve bunların detaylarına <a href="bootcamp.html" target="_blank" class="dark-text link-text">bootcamp sayfasından</a>                                            ulaşabilirsin.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse9html" data-toggle="collapse" onclick="myFunction('collapse9html')" href="#collapse9">Hangi alanlarda yazılımcı yetiştiriyorsunuz? </a>
+                                </div>
+                                <div id="collapse9" class="collapse">
+                                    <div class="card-body">
+                                        <p>Bootcamp'lerimiz yetenek açığının en yüksek olduğu ve ileride yüksek olması beklenilen yazılım alanlarına odaklanır. Bunun için 3 alanda bootcamp'ler açarız: Web geliştirme, mobil geliştirme, ve veri bilimi & makine
+                                            öğrenmesi. Ayrıntılı bilgi <a href="bootcamp.html" target="_blank" class="dark-text link-text">burada</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse10html" data-toggle="collapse" onclick="myFunction('collapse10html')" href="#collapse10">Bootcamp'ler ücretli mi? Ücretsiz ise peki Kodluyoruz kendini nasıl sürdürüyor?</a>
+                                </div>
+                                <div id="collapse10" class="collapse">
+                                    <div class="card-body">
+                                        <p>Hayır :) Bootcamp'lerimiz tamamen ücretsizdir. Kodluyoruz bir sosyal girişim. Burada tam zamanlı çalışan bir ekibimiz, birçok masrafımız, ve ücret verdiğimiz eğitmenlerimiz var. Bu sürdürülebilirliği işe yerleştirme
+                                            modeliyle sağlamaya çalışıyoruz.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse11html" data-toggle="collapse" onclick="myFunction('collapse11html')" href="#collapse11">Kodluyoruz hangi illerde bootcamp düzenliyor?</a>
+                                </div>
+                                <div id="collapse11" class="collapse">
+                                    <div class="card-body">
+                                        <p>2019'a kadar Ankara, Bursa, İstanbul, Niğde ve Şanlıurfa’da bootcamp düzenledik. Çok yakında diğer şehirlerde de olabilmek için çalışıyoruz. Senin de bizimle tanışmak istediğini görür gibiyim. Ekibimize katılmak
+                                            için
+                                            <a href="about.html" target="_blank" class="dark-text link-text">tıkla</a> veya kendi şehrinde Kodluyoruz’la yapabileceklerini “Birlikte Yapabiliriz” başlığıyla <a href="mailto:info@kodluyoruz.org" target="_blank"
+                                                class="dark-text link-text">info@kodluyoruz.org</a> 'a gönder.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse12html" data-toggle="collapse" onclick="myFunction('collapse12html')" href="#collapse12">Yazılımcı olmak istiyorum kaynak önerebilir misiniz? Bir yazılımcıya tavsiyeleriniz nelerdir?</a>
+                                </div>
+                                <div id="collapse12" class="collapse">
+                                    <div class="card-body">
+                                        <p>İnternet sitemizdeki <a href="https://medium.com/kodluyoruz/latest" target="_blank" class="dark-text link-text">Kodluyoruz</a> Açık Kaynakları ve <a href="https://medium.com/kodluyoruz/latest" target="_blank" class="dark-text link-text">KodluyoruzLab hesabımız</a>tam
+                                            sana göre</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <a class="card-link black-text" id="collapse13html" data-toggle="collapse" onclick="myFunction('collapse13html')" href="#collapse13">Kodluyoruz'un şehrimize gelmesini istiyoruz. Bunu nasıl yapabiliriz?</a>
+                                </div>
+                                <div id="collapse13" class="collapse">
+                                    <div class="card-body">
+                                        <p>Onlarca şehirdeyiz!
+                                            <a href="bootcamp.html" target="_blank" class="dark-text link-text">Buradaki bootcamp başvuru sayfasında</a>kendi şehrinde düzenlenen bootcamp'ler olup olmadığına bakabilirsin. Henüz bulunmadığımız şehirlere
+                                            de gelmek için elimizden geleni yapıyoruz. Eğer şehrine gelmemiz için sponsor olmak istersen bize <a href="mailto:info@kodluyoruz.org" target="_blank" class="dark-text link-text">info@kodluyoruz.org</a> üzerinden
+                                            yazabilirsin.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-center">Kodluyoruz Junior'la ilgili sorular</h1>
+                        <div class="mt-5">
+                            <div id="collapse">
+                                <div class="card">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link black-text" id="collapse14html" data-toggle="collapse" onclick="myFunction('collapse14html')" href="#collapse14">Kodluyoruz'da nasıl çalışma imkanları var, bir çalışan olarak bizden beklentiniz nedir?</a>
+                                    </div>
+                                    <div id="collapse14" class="collapse">
+                                        <div class="card-body">
+                                            <p>Teknoloji sektöründe ve gençlerin hayatında yaptığı katkıdan heyecan duyan, bunu yaparken beraber büyüyen bir ekibiz. Pek çok hayalimiz, ve bunları gerçekleştirmek için tutkulu ekip arkadaşlarına ihtiyacımız
+                                                var! Kodluyoruz’daki açık pozisyonları görmek ve daha detaylı bilgi edinmek için <a href="mailto:info@kodluyoruz.org" target="_blank" class="dark-text link-text">buradaki</a> bağlantıya tıklayabilirsin.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link black-text" id="collapse15html" data-toggle="collapse" onclick="myFunction('collapse15html')" href="#collapse15">Çocuklara yönelik atölyeleriniz oluyor mu?</a>
+                                    </div>
+                                    <div id="collapse15" class="collapse">
+                                        <div class="card-body">
+                                            <p>Çocuklarla ilgili yaptığımız projeleri <a href="kodluyoruz-junior.html" target="_blank" class="dark-text link-text">buradan</a> inceleyebilirsiniz. Ancak ne yazık ki bireysel başvuru alamıyoruz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link black-text" id="collapse16html" data-toggle="collapse" onclick="myFunction('collapse16html')" href="#collapse16">Çocuğumla beraber kodlama öğrenmeye başlamak istiyorum. Nereden başlamalıyız?</a>
+                                    </div>
+                                    <div id="collapse16" class="collapse">
+                                        <div class="card-body">
+                                            <p>Yaş gruplarına göre video anlatımlı eğitimlerimize <a href="resources.html" target="_blank" class="dark-text link-text">buraya</a> tıklayarak ulaşabilirsiniz. Sorularınız olursa yine bu site üzerinden bize ulaşabilirsiniz.
+                                                Ayrıca farklı programları da görmek isterseniz <a href="kodluyoruz-junior.html" target="_blank" class="dark-text link-text">buradaki</a> ‘Açık Kaynaklar’ kısmına göz atmanızı öneririz</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-center">Kodluyoruz'la ilgili sorular</h1>
+                        <div class="mt-5">
+                            <div id="collapse ">
+                                <div class="card">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link black-text" id="collapse17html" data-toggle="collapse" onclick="myFunction('collapse17html')" href="#collapse17">Kodluyoruz nedir? Ne yapar? </a>
+                                    </div>
+                                    <div id="collapse17" class="collapse">
+                                        <div class="card-body">
+                                            <p>Kodluyoruz, başta Türkiye olmak üzere teknoloji sektöründe kariyer hedefi olan gençler için imkanlar yaratarak Türkiye’yi dünya çapında bir teknoloji yetenek merkezi haline getirmek için çalışan bir sosyal girişimdir.
+                                                Hakkımızda daha çok bilgiye
+                                                <a href="about.html" target="_blank" class="dark-text link-text">buradan</a> ulaşabilirsin.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link black-text" id="collapse18html" data-toggle="collapse" onclick="myFunction('collapse18html')" href="#collapse18">Kodluyoruz'da nasıl çalışma imkanları var, bir çalışan olarak bizden beklentiniz nedir?</a>
+                                    </div>
+                                    <div id="collapse18" class="collapse">
+                                        <div class="card-body">
+                                            <p>Teknoloji sektöründe ve gençlerin hayatında yaptığı katkıdan heyecan duyan, bunu yaparken beraber büyüyen bir ekibiz. Pek çok hayalimiz, ve bunları gerçekleştirmek için tutkulu ekip arkadaşlarına ihtiyacımız
+                                                var! Kodluyoruz’daki açık pozisyonları görmek ve daha detaylı bilgi edinmek için <a href="mailto:info@kodluyoruz.org" target="_blank" class="dark-text link-text">buradaki</a> bağlantıya tıklayabilirsin.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="bg-gray">
+            <div class="container">
+
+                <div class="row ">
+                    <div class="col-md-4 col-xl-3 ">
+                        <h6 class="footer-header ">MENÜ</h6>
+                        <ul class="footer-ul ">
+                            <li><a href="kodla-donusturelim.html ">Kodla Dönüştürelim</a></li>
+                            <li><a href="hi-kod.html ">Hi-Kod</a></li>
+                            <li><a href="bootcamp.html ">Bootcamp</a></li>
+                            <li><a href="community.html ">Topluluk</a></li>
+                            <li><a href="cs50.html ">CS50x</a></li>
+                            <li><a href="kodluyoruz-junior.html ">Kodluyoruz Jr.</a></li>
+                            <li><a href="for-companies.html ">Şirketler</a></li>
+                            <li><a href="about.html ">Hakkımızda</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xl-3 ">
+                        <h6 class="footer-header ">BECERİ GELIŞTIR</h6>
+                        <ul class="footer-ul ">
+                            <li><a href="resources.html ">Kaynaklar</a></li>
+                            <li><a href="for-companies.html ">Şirketler</a></li>
+                            <li><a href="ai-strategy.html ">AI Stratejisi</a></li>
+                            <li><a href="bootcamp/admission.html ">Seçim süreci</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xl-3 ">
+                        <h6 class="footer-header ">HAKKINDA</h6>
+                        <ul class="footer-ul ">
+                            <li><a href="about.html ">Hakkımızda</a></li>
+                            <li><a href="jobs.html ">Bize Katıl!</a></li>
+                            <li><a href="donate.html ">Destekle</a></li>
+                            <li><a href="faq.html ">SSS</a></li>
+                            <li><a href="contact.html ">İletişim</a></li>
+                            <li><a href="links.html ">Kolay Erişim</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xl-3 ">
+                        <a href="https://kodluyoruz.org"> <img src="images/footer-logo.png " class="footer-logo mt-5 "></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row ">
+                    <div class="col-lg-6 mt-4 ml-4 ">
+                        <p class="text-secondary ">© 2020 Kodluyoruz
+                            <a href="https://cdn.sanity.io/files/9kdepi1d/production/a9971b686af8f40fed30a4b2deba0c4fce31b5b7.pdf " rel="noreferrer " target="_blank " class="footer-a ">Çerez Politikası</a> ,
+                            <a href="https://cdn.sanity.io/files/9kdepi1d/production/d5b01329809f92dfbd03e6b103cb65c58d85fd9b.pdf " rel="noreferrer " target="_blank " class="footer-a ">Kişisel Veriler Korunması Başvuru Formu</a> </div>
+                    </p>
+                </div>
+                <div class="col-lg-6 ml-4 ">
+                    <a href="https://www.facebook.com/kodluyoruztr/ "><i class="fab fa-facebook footer-social-media mr-3 "></i></a>
+                    <a href="https://www.instagram.com/kodluyoruz/ "><i class="fab fa-instagram footer-social-media m-3 "></i></a>
+                    <a href="https://twitter.com/kodluyoruz "><i class="fab fa-twitter footer-social-media m-3 " ></i></a>
+                    <a href="https://www.linkedin.com/company/kodluyoruz/ "><i class="fab fa-linkedin-in footer-social-media m-3 "></i></a>
+                    <a href="https://medium.com/kodluyoruz/ "><i class="fab fa-medium-m footer-social-media m-3 "></i></a>
+                    <a href="https://www.youtube.com/channel/UCSnIf-v95OSGIv9H7d2R2lw "><i class="fab fa-youtube footer-social-media m-3 "></i></a>
+                    <a href="https://discord.gg/6jksNuQD "><i class="fab fa-discord footer-social-media m-3 "></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
+
+</html>
